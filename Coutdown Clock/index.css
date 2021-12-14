@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: 0;
+          box-sizing: 0;
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  color: white;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("bg1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+header:after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(34, 34, 34, 0.5);
+}
+
+header .content {
+  position: relative;
+  z-index: 1;
+}
+
+header h1 {
+  color: #FFF;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+header h1 span {
+  font-weight: 100;
+}
+
+@media screen and (min-width: 480px) {
+  header h1 {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header h1 {
+    font-size: 55px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header h1 {
+    font-size: 63px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header h1 {
+    font-size: 72px;
+  }
+}
+
+header h2 {
+  color: white;
+  font-size: 38px;
+  font-weight: 900;
+  margin: 30px 0px;
+}
+
+@media screen and (min-width: 480px) {
+  header h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header h2 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header h2 {
+    font-size: 57px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header h2 {
+    font-size: 68px;
+  }
+}
+
+header .countdown {
+  color: #fff;
+  font-size: 200px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 480px) {
+  header .countdown {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .countdown {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .countdown {
+    font-size: 72px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header .countdown {
+    font-size: 88px;
+  }
+}
+
+header .day {
+  color: #fff;
+  font-size: 400px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 480px) {
+  header .day {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header .day {
+    font-size: 56px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header .day {
+    font-size: 72px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  header .day {
+    font-size: 88px;
+  }
+}
+
+header #particles-js {
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header audio {
+  width: 100%;
+  opacity: 0%;
+}
+/*# sourceMappingURL=index.css.map */
